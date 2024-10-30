@@ -1,0 +1,128 @@
+#adminmenu #toplevel_page_miqid .wp-menu-image {
+  box-sizing: border-box;
+  padding: 5px;
+  height: 34px;
+  width: 34px;
+}
+#adminmenu #toplevel_page_miqid .wp-menu-image img {
+  padding: 0;
+  width: 24px;
+  height: 24px;
+}
+
+.miqid-admin {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 20px;
+}
+.miqid-admin header, .miqid-admin .banner {
+  margin-bottom: 15px;
+}
+.miqid-admin table {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.miqid-admin table:last-child {
+  margin-bottom: 0;
+}
+.miqid-admin table tbody th {
+  text-align: left;
+  width: 165px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+.miqid-admin table tbody td input[type=text],
+.miqid-admin table tbody td input[type=email] {
+  width: 100%;
+}
+.miqid-admin section {
+  display: flex;
+  margin-bottom: 15px;
+}
+.miqid-admin section.bg-white {
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 2px 6px #23282D12;
+}
+.miqid-admin section main {
+  flex: 1;
+  padding: 20px;
+}
+.miqid-admin section form {
+  flex: 1;
+}
+.miqid-admin .btn-group {
+  display: flex;
+  column-gap: 5px;
+}
+.miqid-admin .btn-group button {
+  background-color: #51ACCB;
+  color: #FFF;
+  border: 0;
+  line-height: 26px;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+}
+.miqid-admin .btn-group button.miqid-loading {
+  font-size: 0;
+}
+.miqid-admin .btn-group button.miqid-loading:after {
+  content: " ";
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.miqid-admin > main {
+  flex: 1;
+}
+.miqid-admin .colors {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+.miqid-admin .colors .color {
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.miqid-admin .colors .color label[for] {
+  font-weight: 700;
+  min-width: 100px;
+}
+.miqid-admin.dashboard section {
+  max-width: 768px;
+}
+.miqid-admin .miqid-sidebar {
+  width: 284px;
+}
+.miqid-admin .miqid-sidebar section {
+  display: block;
+  margin-bottom: 15px;
+}
+.miqid-admin .miqid-sidebar section picture {
+  display: block;
+}
+.miqid-admin .miqid-sidebar section main {
+  margin-right: 0;
+  border-radius: 3px;
+  opacity: 1;
+  background: #FFFFFF 0 0 no-repeat padding-box;
+  box-shadow: 0 2px 6px #23282D12;
+}
+.miqid-admin .miqid-sidebar section main h3 {
+  margin-top: 0;
+}

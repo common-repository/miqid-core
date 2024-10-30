@@ -1,0 +1,211 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: MIQID-Core\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-13 08:01+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.4.3; wp-5.5.1"
+
+#: src/Classes/DTO/Enum/BiometricsPermission.php:16
+msgctxt "BiometricsPermission"
+msgid "UseBiometricsToApprove"
+msgstr ""
+
+#: src/Classes/DTO/Enum/BiometricsPermission.php:17
+msgctxt "BiometricsPermission"
+msgid "UseBiometricsToRecover"
+msgstr ""
+
+#. "switch off" means to temporarily log out
+#: src/Frontend/User_Switching.php:202 src/Frontend/User_Switching.php:223
+msgid "Could not switch off."
+msgstr ""
+
+#: src/Frontend/User_Switching.php:128 src/Frontend/User_Switching.php:153
+#: src/Frontend/User_Switching.php:161 src/Frontend/User_Switching.php:166
+#: src/Frontend/User_Switching.php:194
+msgid "Could not switch users."
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:42
+msgid "CprNumber"
+msgstr ""
+
+#: src/Admin/Init.php:284
+msgid "Date Format"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:41
+msgid "DateOfBirth"
+msgstr ""
+
+#: src/Admin/Init.php:308
+msgid "DateTime Format"
+msgstr ""
+
+#: src/Frontend/WP_Login.php:103 src/Classes/DTO/Profile.php:37
+msgid "Email"
+msgstr ""
+
+#: src/Admin/Init.php:253
+msgid "Endpoint Business Host"
+msgstr ""
+
+#: src/Admin/Init.php:263
+msgid "Endpoint Business Version"
+msgstr ""
+
+#: src/Admin/Init.php:243
+msgid "Endpoint Private Host"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:38
+msgid "FirstName"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://miqid.com/"
+msgstr ""
+
+#: src/Admin/Init.php:274
+msgid "JWT Token"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:39
+msgid "LastName"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:40
+msgid "LegalName"
+msgstr ""
+
+#. Author of the plugin
+msgid "MIQ ApS"
+msgstr ""
+
+#. Name of the plugin
+msgid "MIQID-Core"
+msgstr ""
+
+#. Description of the plugin
+msgid "MIQID-Core handle the basics."
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:45
+msgid "Nationality"
+msgstr ""
+
+#: src/Frontend/Shortcode/Shortcode.php:86
+#, php-format
+msgid "Not %s"
+msgstr ""
+
+#: src/Frontend/WP_Login.php:108
+msgid "Password"
+msgstr ""
+
+#: src/Classes/DTO/Enum/PermissionType.php:18
+msgctxt "PermissionType"
+msgid "Authority"
+msgstr ""
+
+#: src/Frontend/Shortcode/Shortcode.php:159
+#, php-format
+msgctxt "PermissionType"
+msgid "Data not shared with %s in MIQID."
+msgstr ""
+
+#: src/Classes/DTO/Enum/PermissionType.php:20
+msgctxt "PermissionType"
+msgid "Private"
+msgstr ""
+
+#: src/Classes/DTO/Enum/PermissionType.php:19
+msgctxt "PermissionType"
+msgid "Shopping"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:44
+msgid "PhoneNumber"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:36
+msgid "Profile"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:43
+msgid "SexType"
+msgstr ""
+
+#: src/Classes/DTO/Enum/SexType.php:18
+msgctxt "SexType"
+msgid "Female"
+msgstr ""
+
+#: src/Classes/DTO/Enum/SexType.php:17
+msgctxt "SexType"
+msgid "Male"
+msgstr ""
+
+#: src/Classes/DTO/Enum/SexType.php:19
+msgctxt "SexType"
+msgid "Other"
+msgstr ""
+
+#. 1: user display name; 2: username;
+#: src/Frontend/User_Switching.php:332 src/Frontend/User_Switching.php:366
+#: src/Frontend/User_Switching.php:396 src/Frontend/User_Switching.php:436
+#: src/Frontend/User_Switching.php:464
+#, php-format
+msgid "Switch back to %1$s (%2$s)"
+msgstr ""
+
+#. "switch off" means to temporarily log out
+#: src/Frontend/User_Switching.php:354
+msgid "Switch Off"
+msgstr ""
+
+#: src/Admin/User_Switching.php:143
+msgid "Switch To"
+msgstr ""
+
+#: src/Frontend/User_Switching.php:84 src/Frontend/User_Switching.php:378
+#: src/Frontend/User_Switching.php:525 src/Frontend/User_Switching.php:554
+msgid "Switch&nbsp;To"
+msgstr ""
+
+#: src/Classes/DTO/Enum/Theme.php:15
+msgctxt "Theme"
+msgid "Dark"
+msgstr ""
+
+#: src/Classes/DTO/Enum/Theme.php:16
+msgctxt "Theme"
+msgid "Light"
+msgstr ""
+
+#: src/Admin/Init.php:296
+msgid "Time Format"
+msgstr ""
+
+#: src/Admin/Init.php:320
+msgid "User Switching Enabled"
+msgstr ""
+
+#: src/Frontend/User_Switching.php:83
+msgctxt "User Switching title on user profile screen"
+msgid "User Switching"
+msgstr ""
+
+#: src/Classes/DTO/Profile.php:46
+msgid "Verified"
+msgstr ""

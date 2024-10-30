@@ -1,0 +1,129 @@
+#adminmenu li.toplevel_page_miqid-core a.toplevel_page_miqid-core .wp-menu-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#adminmenu li.toplevel_page_miqid-core a.toplevel_page_miqid-core .wp-menu-image img {
+  box-sizing: border-box;
+  padding: 0;
+  width: auto;
+  height: 20px;
+}
+
+.MIQID_Core_Admin_Admin {
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: #EEE;
+}
+.MIQID_Core_Admin_Admin * {
+  box-sizing: border-box;
+}
+.MIQID_Core_Admin_Admin header nav {
+  background-color: #23282d;
+  color: #fff;
+}
+.MIQID_Core_Admin_Admin header nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+.MIQID_Core_Admin_Admin header nav ul li {
+  margin: 0;
+}
+.MIQID_Core_Admin_Admin header nav ul li > * {
+  display: block;
+  padding: 0 8px;
+  color: white;
+  line-height: 30px;
+  text-decoration: none;
+}
+.MIQID_Core_Admin_Admin header nav ul li > *.active {
+  background-color: #EEE;
+  color: black;
+}
+.MIQID_Core_Admin_Admin header nav ul li > *:hover, .MIQID_Core_Admin_Admin header nav ul li > *:focus, .MIQID_Core_Admin_Admin header nav ul li > *:active {
+  background-color: #c8c8c8;
+  color: black;
+  text-transform: none;
+}
+.MIQID_Core_Admin_Admin .styling-menu {
+  flex: none;
+  align-self: flex-end;
+  padding-bottom: 10px;
+  width: 50px;
+  text-align: center;
+}
+.MIQID_Core_Admin_Admin form {
+  padding: 0 8px;
+  margin-bottom: 10px;
+}
+.MIQID_Core_Admin_Admin form section label {
+  font-weight: 500;
+}
+.MIQID_Core_Admin_Admin form section textarea {
+  width: 100%;
+  min-height: 80px;
+  resize: vertical;
+}
+.MIQID_Core_Admin_Admin form section:only-child button.remove {
+  display: none;
+}
+.MIQID_Core_Admin_Admin label {
+  display: block;
+}
+.MIQID_Core_Admin_Admin .d-flex {
+  display: flex;
+}
+.MIQID_Core_Admin_Admin .d-flex.flex-column {
+  flex-direction: column;
+}
+.MIQID_Core_Admin_Admin .d-flex.flex-row {
+  flex-direction: row;
+}
+.MIQID_Core_Admin_Admin .panel {
+  position: relative;
+  max-width: 340px;
+  box-sizing: border-box;
+  -webkit-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+  margin-bottom: 15px;
+}
+.MIQID_Core_Admin_Admin .panel * {
+  box-sizing: border-box;
+}
+.MIQID_Core_Admin_Admin .panel .panel-heading {
+  width: 340px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 0 6px;
+  border-bottom: 1px solid black;
+}
+.MIQID_Core_Admin_Admin .panel .panel-body {
+  width: 340px;
+  padding: 6px;
+}
+.MIQID_Core_Admin_Admin .panel .matches {
+  position: absolute;
+  margin-left: 350px;
+  top: 0;
+}
+.MIQID_Core_Admin_Admin .panel-group {
+  margin-bottom: 15px;
+}
+.MIQID_Core_Admin_Admin .panel-group .panel .panel-heading {
+  cursor: pointer;
+}
+.MIQID_Core_Admin_Admin .panel-group .panel.panel-collapsed .panel-body {
+  display: none;
+}
+.MIQID_Core_Admin_Admin .panel-group .panel.panel-collapsed .matches {
+  display: none;
+}
+.MIQID_Core_Admin_Admin .panel-group .panel:last-child {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=main.css.map */

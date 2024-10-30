@@ -1,0 +1,106 @@
+#adminmenu {
+  li.toplevel_page_miqid-core {
+    a.toplevel_page_miqid-core {
+      .wp-menu-image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+          box-sizing: border-box;
+          padding: 0;
+          width: auto;
+          height: 20px;
+        }
+      }
+    }
+  }
+}
+
+$bgColor: #EEE;
+
+.MIQID_Core_Admin_Admin {
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-right: 20px;
+  background-color: $bgColor;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  header {
+    nav {
+      background-color: #23282d;
+      color: #fff;
+
+      ul {
+        list-style: none;
+        display: flex;
+        margin: 0;
+
+        li {
+          margin: 0;
+
+          > * {
+            display: block;
+            padding: 0 8px;
+            color: white;
+            line-height: 30px;
+            text-decoration: none;
+
+            &.active {
+              background-color: $bgColor;
+              color: black;
+            }
+
+            &:hover, &:focus, &:active {
+              background-color: darken($bgColor, 15%);
+              color: black;
+              text-transform: none;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .styling-menu {
+    flex: none;
+    align-self: flex-end;
+    padding-bottom: 10px;
+    width: 50px;
+    text-align: center;
+  }
+
+  form {
+    padding: 0 8px;
+    margin-bottom: 10px;
+
+    section {
+
+      label {
+        font-weight: 500;
+      }
+
+      textarea {
+        width: 100%;
+        min-height: 80px;
+        resize: vertical;
+      }
+
+      &:only-child {
+        button.remove {
+          display: none;
+        }
+      }
+    }
+  }
+
+  label {
+    display: block;
+  }
+
+  @import "flex";
+  @import "panel";
+}
